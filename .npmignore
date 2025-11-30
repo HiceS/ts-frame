@@ -1,0 +1,15 @@
+src/
+node_modules/
+*.config.ts
+*.config.js
+tsconfig.json
+vitest.config.ts
+tsup.config.ts
+.git/
+.gitignore
+*.log
+.DS_Store
+coverage/
+*.test.ts
+*.spec.ts
+
