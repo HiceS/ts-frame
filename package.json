@@ -6,16 +6,31 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "author": "Shawn Hice <shawnhice@gmail.com>",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
-    }
+    },
+    "./core": {
+      "types": "./dist/core/DataFrame.d.ts",
+      "import": "./dist/core/DataFrame.js"
+    },
+    "./columns": {
+      "types": "./dist/columns/index.d.ts",
+      "import": "./dist/columns/index.js"
+    },
+    "./io": {
+      "types": "./dist/io/index.d.ts",
+      "import": "./dist/io/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "sideEffects": false,
   "scripts": {
@@ -34,7 +49,6 @@
     "data-processing",
     "polars"
   ],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@vitest/coverage-v8": "^4.0.14",
@@ -42,5 +56,9 @@
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HiceS/ts-frame.git"
   }
 }
