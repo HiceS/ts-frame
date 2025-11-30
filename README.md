@@ -1,4 +1,4 @@
-# ts-frame
+# ts-frame [![npm](https://img.shields.io/npm/dm/ts-frame?style=flat&logo=npm)](https://www.npmjs.com/package/ts-frame)
 
 A lightweight, type-safe DataFrame library for TypeScript, inspired by pandas. Perfect for data manipulation, analysis, and CSV I/O operations.
 
